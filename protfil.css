@@ -19,7 +19,7 @@
   text-align: center;
   margin: 0 auto;
   
-  align-items: center;
+  
   
  }
  .section-heading h2{
@@ -151,12 +151,10 @@ nav .menu a{
     font-weight: 700;
     line-height: 30px;
   }
-  #skil {
-     padding: 130px; 
-    max-width: 1244px;
-    margin: 0 auto;
-    align-items: center;
-    justify-content: center;
+  #skil { 
+    padding-top: 130px;
+    
+
 
     
   
@@ -164,7 +162,7 @@ nav .menu a{
 #skil .skil-contriner{
   width: 71%;
   max-width: 1140px;
-  margin: o auto;
+  margin: 0 auto;
 }
 #skil .skil-contriner .skil-box{
   display: flex;
