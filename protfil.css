@@ -118,7 +118,7 @@ nav .menu a{
 
 }
 #banner .banner-image img{
-  max-width: 585px;
+  max-width: 567px;
   vertical-align: middle;
 
 }
@@ -146,14 +146,20 @@ nav .menu a{
     font-size: 20px;
     font-weight: 400;
   }
-  bout  .about-continer .about-info .info-cad h4{
+ .about-continer .about-info .info-cad h4{
     font-size: 20px;
     font-weight: 700;
     line-height: 30px;
   }
-  #skil{
-    padding: 130px;
-    margin: 23px 191px 86px 165px;
+  #skil {
+     padding: 130px; 
+    max-width: 1244px;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+
+    
+  
   }
 #skil .skil-contriner{
   width: 71%;
