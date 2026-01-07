@@ -4,7 +4,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-/* shares syle  */
+
 .font-open-sans {
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
@@ -13,11 +13,39 @@
   font-size: 45px;
   font-weight:900;
  }
+
+ .section-heading{
+  max-width: 827px;
+  text-align: center;
+  margin: 0 auto;
+  
+  align-items: center;
+  
+ }
+ .section-heading h2{
+  font-size: 35px;
+  font-weight: 700;
+  margin-bottom: 30px;
+  width: 827px;
+ }
+ .section-heading p{
+  font-size: 18px;
+  margin-bottom: 30px;
+  line-height: 30px;
+  color: #757575;
+  align-items: center;
+  
+
+ }
  .r-coloer{color: #FD6E0A;
 
  }
 header{ 
     background-color: #FFF8F3;
+    
+    background-image: url("images/developer.png") , url("images/header_bg.png") ,#FFF8F3;
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
   padding-top: 51px;
 }
 nav{
@@ -53,6 +81,119 @@ nav .menu a{
   border-radius: 5px;
   font-size: 20px;
   font-weight: bold;
+  cursor: pointer;
 
 
 }
+#banner{
+  border: 3px solid red;
+  margin: 47px 38px 0 230px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+#banner .banner-conten{
+  max-width: 585px;
+}
+#banner .banner-conten h2{
+  font-size: 45px;
+  font-weight: 600;
+  color: #474747;
+  margin-bottom: 5px;
+
+
+}
+#banner .banner-conten h1{
+  font-size: 85px;
+  font-weight: 700;
+  margin-bottom: 20px;
+
+}
+#banner .banner-conten p{
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 30px;
+  color: #757575;
+
+}
+#banner .banner-image img{
+  max-width: 585px;
+  vertical-align: middle;
+
+}
+#about{
+  padding-top: 130px;
+}
+#about .about-continer{
+  width: 71%;
+  max-width: 1140px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #FFF8F3;
+  padding: 131px 157px;
+  
+  text-align: centers;
+  padding: 131px 177px;
+
+}
+  #about  .about-continer .about-info{
+    display: flex;
+    gap: 50px;
+    justify-content: space-around;
+  }
+  #about  .about-continer .about-info .info-cad p{
+    font-size: 20px;
+    font-weight: 400;
+  }
+  bout  .about-continer .about-info .info-cad h4{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+  }
+  #skil{
+    padding: 130px;
+    margin: 23px 191px 86px 165px;
+  }
+#skil .skil-contriner{
+  width: 71%;
+  max-width: 1140px;
+  margin: o auto;
+}
+#skil .skil-contriner .skil-box{
+  display: flex;
+  gap: 24px;
+
+}
+#skil .skil-contriner .skil-box .skil-cad{
+  padding: 30px;
+  /* border: 1px solid red; */
+  max-width: 267px;
+  box-shadow: 0 6px 50px #0000004c;
+
+}
+#skil .skil-contriner .skil-box .skil-cad h3{
+  font-size: 20px;
+  font-weight: 700;
+}
+#skil .skil-contriner .skil-box .skil-cad p{
+  font-size: 16;
+  font-weight: 400;
+}
+#skil .skil-contriner .skil-box .skil-cad img{
+  max-width: 44px;
+margin-bottom: 30px
+}
+
+  #resume{
+    padding-top: 130px;
+  }
+  #resume .resume-container{
+    width: 71%;
+    max-width: 1144px;
+    margin: 0 auto;
+
+  }
+
+
+
